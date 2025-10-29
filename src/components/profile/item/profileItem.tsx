@@ -33,7 +33,7 @@ export const ProfileItem = ({
           <div className="w-12 h-12 flex items-center justify-center">
             {typeof ImageSrc === "string" ? (
               <Image
-                src={ImageSrc ?? '/empty_image.png'}
+                src={`/user/${ImageSrc ?? 'empty_avatar.png'}`}
                 alt="imagem"
                 width={48}
                 height={48}

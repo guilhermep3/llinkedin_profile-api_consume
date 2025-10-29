@@ -14,6 +14,7 @@ type props = {
   ButtonTop?: ReactNode;
   sectionContent?: ReactNode;
   hasData?: boolean;
+  isUserLogged?: boolean;
   buttonDisplayAll?: string | false;
   buttonText?: string | ReactNode;
   buttonLink?: string | ReactNode;
@@ -22,7 +23,7 @@ type props = {
 }
 export const LayoutProfileSection = ({
   sectionName, sectionDesc, SectionDescIcon, sectionLink, sectionLinkHref,
-  Icon, ButtonTop, sectionContent, hasData, buttonDisplayAll,
+  Icon, ButtonTop, sectionContent, hasData, isUserLogged, buttonDisplayAll,
   buttonText, buttonLink, ButtonLinkIcon, buttonNotBlue
 }: props) => {
 
@@ -48,8 +49,8 @@ export const LayoutProfileSection = ({
             }
           </div>
           <div className="flex items-center gap-4">
-            {ButtonTop && ButtonTop}
-            {Icon && <div className={iconStyle}>
+            {isUserLogged && ButtonTop && ButtonTop}
+            {isUserLogged && Icon && <div className={iconStyle}>
               <Icon className="w-5 h-5" />
             </div>}
           </div>

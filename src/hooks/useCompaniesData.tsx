@@ -18,6 +18,7 @@ export function useCompaniesData() {
         setIsLoading(false);
       }
     }
+    fetchData();
   }, [])
 
   return { isLoading, companies }

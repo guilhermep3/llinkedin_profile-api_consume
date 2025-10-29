@@ -18,14 +18,16 @@ import { useParams } from "next/navigation";
 import { LoadingPage } from "@/components/loadingPage";
 import { useProfileData } from "@/hooks/useProfileData";
 import { useCompaniesData } from "@/hooks/useCompaniesData";
+import { usernameLogged } from "@/data/profileData";
 
 export default function Page() {
   const { username } = useParams();
+  const isUserLogged = username === usernameLogged;
 
   const { user, allUsers, experiences, educations, certificates, skills, posts, isLoading } = useProfileData(username as string);
   const { isLoading: companyLoading, companies } = useCompaniesData();
 
-  if (isLoading) {
+  if (isLoading || companyLoading) {
     return <LoadingPage />
   }
 
@@ -122,7 +124,7 @@ export default function Page() {
                   subscription={`
                 ${e.start_date} - ${e.end_date ?? 'o momento'}
                 `}
-                  ImageSrc={company?.avatar}
+                  ImageSrc={company?.avatar ?? "empty_avatar.png"}
                   buttonText="Adicionar Experiência"
                 />
               )
@@ -154,7 +156,7 @@ export default function Page() {
               <ProfileItem key={e.id}
                 title={e.diploma}
                 description={`${e.start_date} - ${e.end_date ?? 'o momento'}`}
-                ImageSrc={"/empty_image.png"}
+                ImageSrc={"empty_avatar.png"}
                 buttonLink="Github, CSS e mais 12 competências"
                 ButtonLinkIcon={Gem}
               />

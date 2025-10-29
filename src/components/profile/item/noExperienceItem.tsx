@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { buttonOutlineBlueStyle, profileSectionContentStyle, profileSectionTitleStyle } from "@/styles/classnames"
-import { X } from "lucide-react"
+import { buttonOutlineBlueStyle } from "@/styles/classnames"
 import Image from "next/image"
 
 export const NoExperienceItem = () => {

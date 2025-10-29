@@ -1,5 +1,4 @@
 "use client"
-import { profileImage } from "@/data/profileData"
 import { FullPost } from "@/types/post"
 import { User } from "@/types/user"
 import { Ellipsis, Globe, MessageSquareMore, Repeat, Send, ThumbsUp } from "lucide-react"
@@ -50,21 +49,30 @@ export const ActivityItem = ({ user, post }: props) => {
         <div className="flex gap-3">
           <div className="rounded-full overflow-hidden w-14 h-14">
             <Image
-              src={profileImage}
+              src={`/user/${user.avatar ?? 'empty_avatar.png'}`}
               alt="imagem"
               width={56} height={56}
-              className="w-full"
+              className="w-full h-full object-cover"
             />
           </div>
           <div>
             <div className="flex items-center gap-2">
               <p className="font-bold">{user.name}</p>
-              <p className="text-xs text-foreground/80">Você</p>
+              {user.username === "username" &&
+                <p className="text-xs text-foreground/80">Você</p>
+              }
             </div>
             <div>
               <p className="text-sm text-foreground/70">{user.bio?.slice(0, 30)}</p>
               <div className="flex items-center gap-2 text-xs">
-                <p className="text-foreground/70">2 min</p><Globe className="w-4 h-4 text-foreground/70" />
+                <p className="text-foreground/70">
+                  {new Date(post.created_at).toLocaleDateString('pt-BR', {
+                    day: '2-digit',
+                    month: 'short',
+                    year: 'numeric',
+                  })}
+                </p>
+                <Globe className="w-4 h-4 text-foreground/70" />
               </div>
             </div>
           </div>
@@ -91,14 +99,17 @@ export const ActivityItem = ({ user, post }: props) => {
             />
           </div>
         }
-        <div className="flex items-center gap-2 p-3 mt-auto">
-          <div className="w-fit bg-primary p-1 rounded-full text-white" title="curtidas">
-            <ThumbsUp className="w-3 h-3 fill-white/50" />
+        <div className="flex items-center gap-2 p-3 mt-auto text-sm">
+          <div className="flex items-center gap-1">
+            <div className="w-fit bg-primary p-1 rounded-full text-white" title="curtidas">
+              <ThumbsUp className="w-3 h-3 fill-white/50" />
+            </div>
+            {post.post_likes.length}
           </div>
-          <div className="text-sm text-foreground/90">
+          <div className="text-foreground/90">
             {post.post_comments.length} {post.post_comments.length > 1 ? 'comentários' : 'comentário'}
           </div>
-          <div className="text-sm text-foreground/90">2 compartilhamentos</div>
+          <div className="text-foreground/90">{post.post_shares.length} compartilhamentos</div>
         </div>
       </div>
       <div className="grid grid-cols-4 border-t">

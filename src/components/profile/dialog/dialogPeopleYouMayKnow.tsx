@@ -15,7 +15,7 @@ export const DialogPeopleYouMayKnow = ({ isDialogOpen, setIsDialogOpen, users }:
       <DialogTrigger className="w-full">
         <Button
           variant={"outline"}
-          className=" w-full bg-white dark:bg-black rounded-none text-base text-foreground/90 hover:text-foreground border-x-0 py-5!"
+          className=" w-full bg-white dark:bg-black rounded-none text-base text-foreground/90 hover:text-foreground border-x-0 py-5! cursor-pointer"
           onClick={(prev) => setIsDialogOpen(!prev)}
         >
           Exibir tudo

@@ -13,7 +13,7 @@ export const CertificatesContent = () => {
             subscription="Verificação emitida em agosto de 2025"
             subscription2="Código da credencial 62479093364-8654567-tv3246471"
             buttonText="Exibir credencial"
-            ImageSrc="/b7web_logo.jpg"
+            ImageSrc="empty_avatar.png"
             buttonNotBlue
           />
           {index < 1 &&

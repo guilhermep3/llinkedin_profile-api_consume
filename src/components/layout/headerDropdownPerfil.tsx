@@ -45,7 +45,7 @@ export function HeaderDropdownPerfil() {
             </div>
           </div>
           <Link href={`/in/guilherme`}>
-            <Button className="w-full text-white">Ver Perfil</Button>
+            <Button className="w-full text-white cursor-pointer">Ver Perfil</Button>
           </Link>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
@@ -67,7 +67,7 @@ export function HeaderDropdownPerfil() {
         <DropdownMenuSeparator />
         <DropdownMenuItem className="cursor-pointer">
           <Link href={'/signin'} className="inline-block w-full">
-            <Button variant={"ghost"} size={"sm"} className="w-full">
+            <Button variant={"ghost"} size={"sm"} className="w-full cursor-pointer">
               Sair <LogOut className="text-foreground" />
             </Button>
           </Link>
