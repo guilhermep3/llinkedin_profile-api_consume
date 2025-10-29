@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Dialog, DialogContent, DialogHeader, DialogTrigger } from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 import { User } from "@/types/user";
 import { UserYouMayKnow } from "../userYouMayKnow";
 
@@ -22,8 +22,8 @@ export const DialogPeopleYouMayKnow = ({ isDialogOpen, setIsDialogOpen, users }:
         </Button>
       </DialogTrigger>
       <DialogContent className="flex flex-col max-h-[calc(100vh-100px)]">
-        <DialogHeader className="flex-shrink-0 text-lg font-semibold text-foreground/90">
-          <h1>Pessoas que você talvez conheça</h1>
+        <DialogHeader className="shrink-0 text-lg font-semibold text-foreground/90">
+          <DialogTitle>Pessoas que você talvez conheça</DialogTitle>
         </DialogHeader>
         <div className="flex-1 overflow-y-auto">
           <div className="flex flex-col gap-5">
