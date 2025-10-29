@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "name": "Desenvolvimento de Front-end",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:00:00Z"
+  },
+  {
+    "id": 2,
+    "user_id": 1,
+    "name": "React.js",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:00:00Z"
+  },
+  {
+    "id": 3,
+    "user_id": 1,
+    "name": "Next.js",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:00:00Z"
+  },
+  {
+    "id": 4,
+    "user_id": 1,
+    "name": "TypeScript",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:00:00Z"
+  },
+  {
+    "id": 5,
+    "user_id": 1,
+    "name": "Tailwind CSS",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:00:00Z"
+  },
+  {
+    "id": 6,
+    "user_id": 1,
+    "name": "HTML",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:00:00Z"
+  },
+  {
+    "id": 7,
+    "user_id": 1,
+    "name": "CSS",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:00:00Z"
+  },
+  {
+    "id": 8,
+    "user_id": 1,
+    "name": "JavaScript",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:00:00Z"
+  },
+  {
+    "id": 9,
+    "user_id": 2,
+    "name": "UX Design",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:05:00Z"
+  },
+  {
+    "id": 10,
+    "user_id": 2,
+    "name": "Prototipagem",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:05:00Z"
+  },
+  {
+    "id": 11,
+    "user_id": 2,
+    "name": "Design Thinking",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:05:00Z"
+  },
+  {
+    "id": 12,
+    "user_id": 2,
+    "name": "Figma",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:05:00Z"
+  },
+  {
+    "id": 13,
+    "user_id": 2,
+    "name": "Adobe XD",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:05:00Z"
+  },
+  {
+    "id": 14,
+    "user_id": 2,
+    "name": "Pesquisa de Usuário",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:05:00Z"
+  },
+  {
+    "id": 15,
+    "user_id": 3,
+    "name": "Node.js",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:10:00Z"
+  },
+  {
+    "id": 16,
+    "user_id": 3,
+    "name": "APIs REST",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:10:00Z"
+  },
+  {
+    "id": 17,
+    "user_id": 3,
+    "name": "SQL",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:10:00Z"
+  },
+  {
+    "id": 18,
+    "user_id": 3,
+    "name": "MongoDB",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:10:00Z"
+  },
+  {
+    "id": 19,
+    "user_id": 3,
+    "name": "TypeScript",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:10:00Z"
+  },
+  {
+    "id": 20,
+    "user_id": 4,
+    "name": "Gestão de Projetos",
+    "level": "Sênior",
+    "created_at": "2025-10-23T17:15:00Z"
+  },
+  {
+    "id": 21,
+    "user_id": 4,
+    "name": "Scrum",
+    "level": "Sênior",
+    "created_at": "2025-10-23T17:15:00Z"
+  },
+  {
+    "id": 22,
+    "user_id": 4,
+    "name": "Kanban",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:15:00Z"
+  },
+  {
+    "id": 23,
+    "user_id": 4,
+    "name": "Comunicação",
+    "level": "Sênior",
+    "created_at": "2025-10-23T17:15:00Z"
+  },
+  {
+    "id": 24,
+    "user_id": 4,
+    "name": "Planejamento Estratégico",
+    "level": "Sênior",
+    "created_at": "2025-10-23T17:15:00Z"
+  },
+  {
+    "id": 25,
+    "user_id": 5,
+    "name": "Análise de Dados",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:20:00Z"
+  },
+  {
+    "id": 26,
+    "user_id": 5,
+    "name": "SQL",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:20:00Z"
+  },
+  {
+    "id": 27,
+    "user_id": 5,
+    "name": "Power BI",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:20:00Z"
+  },
+  {
+    "id": 28,
+    "user_id": 5,
+    "name": "Python",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:20:00Z"
+  },
+  {
+    "id": 29,
+    "user_id": 5,
+    "name": "Excel",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:20:00Z"
+  },
+  {
+    "id": 30,
+    "user_id": 6,
+    "name": "React.js",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:25:00Z"
+  },
+  {
+    "id": 31,
+    "user_id": 6,
+    "name": "Node.js",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:25:00Z"
+  },
+  {
+    "id": 32,
+    "user_id": 6,
+    "name": "MongoDB",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:25:00Z"
+  },
+  {
+    "id": 33,
+    "user_id": 6,
+    "name": "TypeScript",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:25:00Z"
+  },
+  {
+    "id": 34,
+    "user_id": 6,
+    "name": "SQL",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:25:00Z"
+  },
+  {
+    "id": 35,
+    "user_id": 7,
+    "name": "CI/CD",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:30:00Z"
+  },
+  {
+    "id": 36,
+    "user_id": 7,
+    "name": "Docker",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:30:00Z"
+  },
+  {
+    "id": 37,
+    "user_id": 7,
+    "name": "AWS",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:30:00Z"
+  },
+  {
+    "id": 38,
+    "user_id": 7,
+    "name": "Kubernetes",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:30:00Z"
+  },
+  {
+    "id": 39,
+    "user_id": 7,
+    "name": "Linux",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:30:00Z"
+  },
+  {
+    "id": 40,
+    "user_id": 8,
+    "name": "Marketing Digital",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:35:00Z"
+  },
+  {
+    "id": 41,
+    "user_id": 8,
+    "name": "SEO",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:35:00Z"
+  },
+  {
+    "id": 42,
+    "user_id": 8,
+    "name": "Google Ads",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:35:00Z"
+  },
+  {
+    "id": 43,
+    "user_id": 8,
+    "name": "Facebook Ads",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:35:00Z"
+  },
+  {
+    "id": 44,
+    "user_id": 8,
+    "name": "E-mail Marketing",
+    "level": "Pleno",
+    "created_at": "2025-10-23T17:35:00Z"
+  },
+  {
+    "id": 45,
+    "user_id": 9,
+    "name": "HTML",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:40:00Z"
+  },
+  {
+    "id": 46,
+    "user_id": 9,
+    "name": "CSS",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:40:00Z"
+  },
+  {
+    "id": 47,
+    "user_id": 9,
+    "name": "JavaScript",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:40:00Z"
+  },
+  {
+    "id": 48,
+    "user_id": 9,
+    "name": "React.js",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:40:00Z"
+  },
+  {
+    "id": 49,
+    "user_id": 9,
+    "name": "Git",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:40:00Z"
+  },
+  {
+    "id": 50,
+    "user_id": 1,
+    "name": "Git",
+    "level": "Júnior",
+    "created_at": "2025-10-23T17:40:00Z"
+  }
+]

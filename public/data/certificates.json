@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "name": "Formação Front-End Completa",
+    "issuer": "B7Web",
+    "issue_date": "2024-05-20",
+    "user_id": 1,
+    "image": "/b7web_logo.jpg",
+    "credential": "B7WEB-2024-FE-001"
+  },
+  {
+    "id": 2,
+    "name": "React e TypeScript Avançado",
+    "issuer": "Alura",
+    "issue_date": "2025-02-12",
+    "user_id": 1,
+    "image": "/alura_logo.jpg",
+    "credential": "ALURA-2025-REACTTS-004"
+  },
+  {
+    "id": 3,
+    "name": "Node.js e Express com SQL",
+    "issuer": "B7Web",
+    "issue_date": "2025-08-10",
+    "user_id": 1,
+    "image": "/b7web_logo.jpg",
+    "credential": "B7WEB-2025-NODE-013"
+  },
+
+  {
+    "id": 4,
+    "name": "JavaScript Moderno ES6+",
+    "issuer": "Rocketseat",
+    "issue_date": "2024-10-05",
+    "user_id": 2,
+    "image": "/rocketseat_logo.jpg",
+    "credential": "RCKT-2024-JS-222"
+  },
+  {
+    "id": 5,
+    "name": "Design Responsivo com Tailwind CSS",
+    "issuer": "Udemy",
+    "issue_date": "2025-03-15",
+    "user_id": 2,
+    "image": "/udemy_logo.jpg",
+    "credential": "UDEMY-2025-TW-321"
+  },
+  {
+    "id": 6,
+    "name": "Next.js para Produção",
+    "issuer": "Rocketseat",
+    "issue_date": "2025-06-20",
+    "user_id": 2,
+    "image": "/rocketseat_logo.jpg",
+    "credential": "RCKT-2025-NEXT-654"
+  },
+
+  {
+    "id": 7,
+    "name": "Python para Iniciantes",
+    "issuer": "Alura",
+    "issue_date": "2023-11-22",
+    "user_id": 3,
+    "image": "/alura_logo.jpg",
+    "credential": "ALURA-2023-PY-099"
+  },
+  {
+    "id": 8,
+    "name": "Data Science Fundamentals",
+    "issuer": "Coursera",
+    "issue_date": "2024-07-18",
+    "user_id": 3,
+    "image": "/coursera_logo.jpg",
+    "credential": "COUR-2024-DS-723"
+  },
+  {
+    "id": 9,
+    "name": "SQL e Banco de Dados Relacionais",
+    "issuer": "B7Web",
+    "issue_date": "2025-01-09",
+    "user_id": 3,
+    "image": "/b7web_logo.jpg",
+    "credential": "B7WEB-2025-SQL-218"
+  },
+  {
+    "id": 10,
+    "name": "Machine Learning Básico",
+    "issuer": "Google",
+    "issue_date": "2025-08-01",
+    "user_id": 3,
+    "image": "/google_logo.jpg",
+    "credential": "GGL-2025-ML-012"
+  },
+
+  {
+    "id": 11,
+    "name": "UI/UX Design Essencial",
+    "issuer": "Origamid",
+    "issue_date": "2024-04-10",
+    "user_id": 4,
+    "image": "/origamid_logo.jpg",
+    "credential": "ORIG-2024-UX-111"
+  },
+  {
+    "id": 12,
+    "name": "Design System com Figma",
+    "issuer": "Alura",
+    "issue_date": "2025-05-25",
+    "user_id": 4,
+    "image": "/alura_logo.jpg",
+    "credential": "ALURA-2025-FIG-567"
+  },
+  {
+    "id": 13,
+    "name": "Criação de Interfaces Avançadas",
+    "issuer": "Rocketseat",
+    "issue_date": "2025-07-30",
+    "user_id": 4,
+    "image": "/rocketseat_logo.jpg",
+    "credential": "RCKT-2025-UI-895"
+  },
+
+  {
+    "id": 14,
+    "name": "Git e GitHub Profissional",
+    "issuer": "B7Web",
+    "issue_date": "2024-06-08",
+    "user_id": 5,
+    "image": "/b7web_logo.jpg",
+    "credential": "B7WEB-2024-GIT-128"
+  },
+  {
+    "id": 15,
+    "name": "DevOps com Docker",
+    "issuer": "Alura",
+    "issue_date": "2025-02-14",
+    "user_id": 5,
+    "image": "/alura_logo.jpg",
+    "credential": "ALURA-2025-DOCK-400"
+  },
+  {
+    "id": 16,
+    "name": "AWS Fundamentals",
+    "issuer": "Amazon",
+    "issue_date": "2025-07-09",
+    "user_id": 5,
+    "image": "/aws_logo.jpg",
+    "credential": "AWS-2025-FUN-013"
+  },
+
+  {
+    "id": 17,
+    "name": "Desenvolvimento Web Full Stack",
+    "issuer": "B7Web",
+    "issue_date": "2024-05-03",
+    "user_id": 6,
+    "image": "/b7web_logo.jpg",
+    "credential": "B7WEB-2024-FS-303"
+  },
+  {
+    "id": 18,
+    "name": "APIs REST com Node.js",
+    "issuer": "Rocketseat",
+    "issue_date": "2025-06-21",
+    "user_id": 6,
+    "image": "/rocketseat_logo.jpg",
+    "credential": "RCKT-2025-API-066"
+  },
+  {
+    "id": 19,
+    "name": "MongoDB Essentials",
+    "issuer": "MongoDB University",
+    "issue_date": "2025-09-01",
+    "user_id": 6,
+    "image": "/mongodb_logo.jpg",
+    "credential": "MONGO-2025-ESS-445"
+  },
+
+  {
+    "id": 20,
+    "name": "HTML e CSS Moderno",
+    "issuer": "Udemy",
+    "issue_date": "2023-12-09",
+    "user_id": 7,
+    "image": "/udemy_logo.jpg",
+    "credential": "UDEMY-2023-HTML-221"
+  },
+  {
+    "id": 21,
+    "name": "JavaScript Completo ES6+",
+    "issuer": "Origamid",
+    "issue_date": "2024-06-10",
+    "user_id": 7,
+    "image": "/origamid_logo.jpg",
+    "credential": "ORIG-2024-JS-771"
+  },
+  {
+    "id": 22,
+    "name": "React Hooks e Context API",
+    "issuer": "B7Web",
+    "issue_date": "2025-05-12",
+    "user_id": 7,
+    "image": "/b7web_logo.jpg",
+    "credential": "B7WEB-2025-RHC-008"
+  },
+
+  {
+    "id": 23,
+    "name": "Boas Práticas em JavaScript",
+    "issuer": "Alura",
+    "issue_date": "2024-08-11",
+    "user_id": 8,
+    "image": "/alura_logo.jpg",
+    "credential": "ALURA-2024-BPJ-009"
+  },
+  {
+    "id": 24,
+    "name": "React Testing Library",
+    "issuer": "Rocketseat",
+    "issue_date": "2025-01-23",
+    "user_id": 8,
+    "image": "/rocketseat_logo.jpg",
+    "credential": "RCKT-2025-RTL-102"
+  },
+  {
+    "id": 25,
+    "name": "Clean Code para Front-End",
+    "issuer": "Udemy",
+    "issue_date": "2025-06-14",
+    "user_id": 8,
+    "image": "/udemy_logo.jpg",
+    "credential": "UDEMY-2025-CCFE-301"
+  },
+
+  {
+    "id": 26,
+    "name": "Análise de Dados com Python",
+    "issuer": "Coursera",
+    "issue_date": "2024-09-09",
+    "user_id": 9,
+    "image": "/coursera_logo.jpg",
+    "credential": "COUR-2024-DATA-721"
+  },
+  {
+    "id": 27,
+    "name": "Power BI para Negócios",
+    "issuer": "Alura",
+    "issue_date": "2025-04-02",
+    "user_id": 9,
+    "image": "/alura_logo.jpg",
+    "credential": "ALURA-2025-PBI-003"
+  },
+  {
+    "id": 28,
+    "name": "Excel Avançado",
+    "issuer": "Udemy",
+    "issue_date": "2023-10-17",
+    "user_id": 9,
+    "image": "/udemy_logo.jpg",
+    "credential": "UDEMY-2023-EXC-982"
+  },
+
+  {
+    "id": 29,
+    "name": "Gestão de Projetos Ágeis",
+    "issuer": "Scrum.org",
+    "issue_date": "2025-02-27",
+    "user_id": 10,
+    "image": "/scrum_logo.jpg",
+    "credential": "SCRUM-2025-PM-552"
+  },
+  {
+    "id": 30,
+    "name": "Liderança e Comunicação",
+    "issuer": "LinkedIn Learning",
+    "issue_date": "2024-11-18",
+    "user_id": 10,
+    "image": "/linkedin_logo.jpg",
+    "credential": "LNKD-2024-LC-222"
+  },
+  {
+    "id": 31,
+    "name": "Gestão de Produtos Digitais",
+    "issuer": "Google",
+    "issue_date": "2025-07-01",
+    "user_id": 10,
+    "image": "/google_logo.jpg",
+    "credential": "GGL-2025-PM-914"
+  }
+]

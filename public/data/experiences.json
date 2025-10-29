@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "company_id": 3,
+    "role": "Desenvolvedor Front-End Júnior",
+    "description": "Atuação em projetos front-end utilizando React.js, Next.js e Tailwind CSS, desenvolvendo interfaces modernas e responsivas para clientes de diversos setores.",
+    "start_date": "2023-08-01",
+    "end_date": null,
+    "current": true
+  },
+  {
+    "id": 2,
+    "user_id": 1,
+    "company_id": 8,
+    "role": "Aluno do Discover",
+    "description": "Participação em programas de formação focados em React, TypeScript e boas práticas de desenvolvimento web.",
+    "start_date": "2022-01-10",
+    "end_date": "2023-06-30",
+    "current": false
+  },
+  {
+    "id": 3,
+    "user_id": 1,
+    "company_id": 10,
+    "role": "Freelancer Front-End",
+    "description": "Desenvolvimento de landing pages e portfólios interativos para designers e empresas criativas, usando Next.js e animações com AOS.",
+    "start_date": "2021-03-05",
+    "end_date": "2022-12-20",
+    "current": false
+  },
+  {
+    "id": 4,
+    "user_id": 2,
+    "company_id": 5,
+    "role": "UX Designer Pleno",
+    "description": "Criação de interfaces e fluxos de experiência do usuário para web e mobile, com foco em acessibilidade e usabilidade.",
+    "start_date": "2021-09-01",
+    "end_date": null,
+    "current": true
+  },
+  {
+    "id": 5,
+    "user_id": 2,
+    "company_id": 7,
+    "role": "Product Designer",
+    "description": "Atuação no design de interfaces colaborativas no Figma, participando da equipe de design system e testes de usabilidade.",
+    "start_date": "2019-02-15",
+    "end_date": "2021-07-01",
+    "current": false
+  },
+  {
+    "id": 6,
+    "user_id": 2,
+    "company_id": 10,
+    "role": "UI Designer Freelancer",
+    "description": "Criação de portfólios visuais para profissionais criativos e pequenas agências.",
+    "start_date": "2017-01-10",
+    "end_date": "2018-12-15",
+    "current": false
+  },
+  {
+    "id": 7,
+    "user_id": 3,
+    "company_id": 1,
+    "role": "Desenvolvedor Back-End Pleno",
+    "description": "Desenvolvimento de APIs escaláveis e microserviços em Node.js e Go, com foco em performance e segurança.",
+    "start_date": "2022-03-01",
+    "end_date": null,
+    "current": true
+  },
+  {
+    "id": 8,
+    "user_id": 3,
+    "company_id": 6,
+    "role": "Engenheiro de Software Júnior",
+    "description": "Contribuição em projetos internos relacionados à automação e machine learning para produtos de IA.",
+    "start_date": "2020-07-01",
+    "end_date": "2022-02-01",
+    "current": false
+  },
+  {
+    "id": 9,
+    "user_id": 4,
+    "company_id": 4,
+    "role": "Gerente de Projetos Sênior",
+    "description": "Gestão de equipes multidisciplinares em projetos de transformação digital e comunicação integrada.",
+    "start_date": "2018-05-01",
+    "end_date": null,
+    "current": true
+  },
+  {
+    "id": 10,
+    "user_id": 4,
+    "company_id": 1,
+    "role": "Coordenadora de Projetos",
+    "description": "Planejamento de entregas e acompanhamento de cronogramas de times de desenvolvimento.",
+    "start_date": "2014-03-01",
+    "end_date": "2018-03-30",
+    "current": false
+  },
+  {
+    "id": 11,
+    "user_id": 5,
+    "company_id": 9,
+    "role": "Analista de Dados Pleno",
+    "description": "Criação de dashboards interativos e relatórios estratégicos para otimização de processos internos.",
+    "start_date": "2023-01-01",
+    "end_date": null,
+    "current": true
+  },
+  {
+    "id": 12,
+    "user_id": 5,
+    "company_id": 1,
+    "role": "Analista de Dados Júnior",
+    "description": "Atuação com grandes volumes de dados e integração de informações entre APIs internas.",
+    "start_date": "2021-02-10",
+    "end_date": "2022-12-01",
+    "current": false
+  },
+  {
+    "id": 13,
+    "user_id": 6,
+    "company_id": 3,
+    "role": "Desenvolvedora Full Stack Pleno",
+    "description": "Implementação de aplicações completas em React, Node.js e PostgreSQL. Integração com APIs externas e otimização de desempenho.",
+    "start_date": "2022-04-01",
+    "end_date": null,
+    "current": true
+  },
+  {
+    "id": 14,
+    "user_id": 6,
+    "company_id": 1,
+    "role": "Desenvolvedora Back-End Júnior",
+    "description": "Criação de endpoints REST e manutenção de servidores Node.js com Express.",
+    "start_date": "2020-01-01",
+    "end_date": "2022-03-01",
+    "current": false
+  },
+  {
+    "id": 15,
+    "user_id": 7,
+    "company_id": 1,
+    "role": "Engenheiro DevOps",
+    "description": "Automatização de pipelines CI/CD, gerenciamento de infraestrutura AWS e monitoramento com Prometheus e Grafana.",
+    "start_date": "2022-02-01",
+    "end_date": null,
+    "current": true
+  },
+  {
+    "id": 16,
+    "user_id": 7,
+    "company_id": 6,
+    "role": "Especialista em Infraestrutura",
+    "description": "Desenvolvimento de soluções seguras e escaláveis em ambientes de cloud híbrida.",
+    "start_date": "2019-06-01",
+    "end_date": "2022-01-01",
+    "current": false
+  },
+  {
+    "id": 17,
+    "user_id": 8,
+    "company_id": 10,
+    "role": "Analista de Marketing Digital",
+    "description": "Gerenciamento de campanhas e estratégias digitais para empresas de tecnologia e startups.",
+    "start_date": "2021-04-01",
+    "end_date": null,
+    "current": true
+  },
+  {
+    "id": 18,
+    "user_id": 8,
+    "company_id": 4,
+    "role": "Social Media",
+    "description": "Criação de conteúdo e planejamento de comunicação digital para redes sociais corporativas.",
+    "start_date": "2018-02-01",
+    "end_date": "2021-03-01",
+    "current": false
+  },
+  {
+    "id": 19,
+    "user_id": 9,
+    "company_id": 8,
+    "role": "Estudante - Programa Explorer",
+    "description": "Participação em programas educacionais voltados para lógica de programação e front-end.",
+    "start_date": "2024-03-01",
+    "end_date": null,
+    "current": true
+  },
+  {
+    "id": 20,
+    "user_id": 9,
+    "company_id": 3,
+    "role": "Estagiário Front-End",
+    "description": "Auxílio na criação de componentes e testes de usabilidade em projetos reais de clientes.",
+    "start_date": "2023-02-01",
+    "end_date": "2023-12-15",
+    "current": false
+  },
+  {
+    "id": 21,
+    "user_id": 10,
+    "company_id": 2,
+    "role": "Recrutadora de Tecnologia",
+    "description": "Responsável pela seleção de desenvolvedores e designers para vagas em empresas parceiras.",
+    "start_date": "2021-08-01",
+    "end_date": null,
+    "current": true
+  },
+  {
+    "id": 22,
+    "user_id": 10,
+    "company_id": 8,
+    "role": "Talent Acquisition Partner",
+    "description": "Atuação no processo de recrutamento para programas de formação e bootcamps de tecnologia.",
+    "start_date": "2018-05-01",
+    "end_date": "2021-07-15",
+    "current": false
+  }
+]

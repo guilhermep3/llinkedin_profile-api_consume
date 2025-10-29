@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "owner_id": 1,
+    "owner_type": "user",
+    "content": "Acabei de lançar meu novo portfólio feito com Next.js e Tailwind! 🚀",
+    "visible": true,
+    "created_at": "2025-10-10T14:20:00Z"
+  },
+  {
+    "id": 2,
+    "owner_id": 1,
+    "owner_type": "user",
+    "content": "Hoje finalizei a atualização do meu projeto Web-Cinema, que agora está mais robusto e visualmente atrativo. \nA principal melhoria foi no design, garantindo uma interface mais limpa e moderna. Além disso, apliquei novas bibliotecas como Swiper.js para o carrossel de filmes, e o Material UI para agilizar na criação das tabs.\nOutras melhorias:\n- Consumo de dados mais ricos da API TMDB, incluindo elenco de filmes, trailers e outras informações.\n- Código mais organizado e otimizado para facilitar a manutenção e futuras atualizações.\nSite: https://lnkd.in/d7G4mnvC\nGithub: https://lnkd.in/dSYEe76k",
+    "visible": true,
+    "created_at": "2025-10-10T14:20:00Z"
+  },
+  {
+    "id": 3,
+    "owner_id": 1,
+    "owner_type": "user",
+    "content": "Explorando novas ideias de UI minimalista. Qual estilo vocês preferem?",
+    "visible": true,
+    "created_at": "2025-09-28T10:30:00Z"
+  },
+  {
+    "id": 4,
+    "owner_id": 2,
+    "owner_type": "user",
+    "content": "Participei de um projeto incrível no Google envolvendo acessibilidade web. 💡",
+    "visible": true,
+    "created_at": "2025-10-05T09:45:00Z"
+  },
+  {
+    "id": 5,
+    "owner_id": 3,
+    "owner_type": "user",
+    "content": "Finalizamos o design do novo dashboard corporativo. Adoro ver ideias ganhando forma!",
+    "visible": true,
+    "created_at": "2025-10-14T17:05:00Z"
+  },
+  {
+    "id": 6,
+    "owner_id": 3,
+    "owner_type": "user",
+    "content": "Foco total em acessibilidade digital neste mês! ♿",
+    "visible": true,
+    "created_at": "2025-09-30T11:00:00Z"
+  },
+  {
+    "id": 7,
+    "owner_id": 4,
+    "owner_type": "user",
+    "content": "Primeiro protótipo da nossa nova landing page — feedbacks são bem-vindos!",
+    "visible": true,
+    "created_at": "2025-10-12T16:40:00Z"
+  },
+  {
+    "id": 8,
+    "owner_id": 5,
+    "owner_type": "user",
+    "content": "Aprendendo TypeScript e já apaixonado pela segurança de tipos 🔥",
+    "visible": true,
+    "created_at": "2025-09-29T12:25:00Z"
+  },
+  {
+    "id": 9,
+    "owner_id": 5,
+    "owner_type": "user",
+    "content": "Nova atualização no app de finanças que desenvolvemos 💰",
+    "visible": true,
+    "created_at": "2025-10-07T19:50:00Z"
+  },
+  {
+    "id": 10,
+    "owner_id": 6,
+    "owner_type": "user",
+    "content": "Estou trabalhando com o time da DevSolutions — muito aprendizado por aqui!",
+    "visible": true,
+    "created_at": "2025-09-18T08:10:00Z"
+  },
+  {
+    "id": 11,
+    "owner_id": 7,
+    "owner_type": "user",
+    "content": "Novas técnicas de animação CSS que estou testando para o projeto atual 🎨",
+    "visible": true,
+    "created_at": "2025-09-22T10:00:00Z"
+  }
+]
